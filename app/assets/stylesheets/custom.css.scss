@@ -1,1 +1,10 @@
 @import 'bootstrap'; 
+
+.navbar-inner:after {
+    clear: both;
+}
+.navbar-inner:before, .navbar-inner:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
