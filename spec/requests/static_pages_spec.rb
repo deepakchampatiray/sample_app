@@ -1,31 +1,45 @@
 require 'spec_helper'
 
 describe "StaticPages" do
-  let(:base_title) {"Ruby On Rails Tutorial Sample App"}
   subject { page }
+
+  page_vals = {
+    home:   {heading:   'Sample App', page_title: ''},
+    help:   {heading:   'Help', page_title: 'Help'},
+    about:  {heading:  'About Us', page_title: 'About Us'},
+    contact: {heading: 'Contact Us', page_title: 'Contact Us'}
+    };
+
+  shared_examples_for "all static pages" do
+    it {should have_selector 'h1', text: page_type[:heading]}
+    it {should have_selector 'title', text: full_title(page_type[:page_title])}
+  end
 
   describe "Home page" do
     before {visit root_path}
+    let(:page_type) { page_vals[:home] }
 
-    it { should have_selector('h1', :text => 'Sample App') }
-    it { should have_selector('title', :text => "#{base_title}") }
+    it_should_behave_like "all static pages";
   end
 
   describe "Help Page" do
     before {visit help_path}
-    it { should have_selector('h1', :text => 'Help') }
-    it { should have_selector('title', :text => "#{base_title} | Help") }
+    let(:page_type) { page_vals[:help] }
+
+    it_should_behave_like "all static pages"
   end
 
   describe "About Us Page" do
     before {visit about_path}
-    it { should have_selector('h1', :text => 'About Us') }
-    it { should have_selector('title', :text => "#{base_title} | About Us") }
+    let(:page_type) { page_vals[:about] }
+
+    it_should_behave_like "all static pages"
   end
 
   describe "Contact Us Page" do
     before {visit contact_path}
-    it { should have_selector('h1', :text => 'Contact Us') }
-    it { should(have_selector('title', :text => "#{base_title} | Contact Us")); }
+    let(:page_type) { page_vals[:contact] }
+
+    it_should_behave_like "all static pages"
   end
 end
