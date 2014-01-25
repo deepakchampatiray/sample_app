@@ -1,0 +1,505 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"should",
+				"should_not"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"it",
+				"it_should_behave_like"
+			],
+			[
+				"con",
+				"contact_path"
+			],
+			[
+				"bef",
+				"before"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"pa",
+				"page"
+			],
+			[
+				"sub",
+				"subj	subject { }"
+			],
+			[
+				"def",
+				"def	def … end"
+			],
+			[
+				"cla",
+				"cla	class .. end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/deepak/bxe/bxe_crm/app/models/address.rb",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepak/bxe/bxe_crm/app/models/appointment.rb",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepak/bxe/bxe_crm/app/models/attribute_definition.rb",
+			"settings":
+			{
+				"buffer_size": 2170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepak/bxe/bxe_crm/app/models/calendar.rb",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepak/bxe/bxe_crm/app/models/calendar_event.rb",
+			"settings":
+			{
+				"buffer_size": 1803,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepak/bxe/bxe_crm/app/models/comment.rb",
+			"settings":
+			{
+				"buffer_size": 477,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"class",
+				"Snippet: class .. end"
+			],
+			[
+				"Snippet: cla",
+				"Snippet: class .. end"
+			],
+			[
+				"Snippet: ",
+				"Snippet: class_from_name()"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/deepak/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/deepak/rails_project/sample_app/config/environment.rb",
+		"/home/deepak/rails_project/sample_app/config/application.rb",
+		"/home/deepak/bxe/bxe_crm/config/application.rb",
+		"/home/deepak/rails_project/sample_app/config/locales/en.yml",
+		"/home/deepak/rails_project/sample_app/db/test.sqlite3",
+		"/home/deepak/rails_project/sample_app/app/models/user.rb",
+		"/home/deepak/rails_project/sample_app/config/environments/production.rb",
+		"/home/deepak/rails_project/sample_app/config/environments/development.rb",
+		"/home/deepak/rails_project/sample_app/log/development.log",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130529173055_create_licensees.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130529183539_add_owning_context_id_to_user_profile.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130421232716_create_user_profiles.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130430025703_create_states.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130430025740_create_countries.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130430032252_create_locations.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130507000443_create_tasks.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130507212852_create_statuses.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130425194509_create_comments.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130507160042_create_comment_associations.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130425151906_create_calendar_events.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130425145526_create_calendars.rb",
+		"/home/deepak/bxe/bxe_crm/db/migrate/20130419172052_create_people.rb",
+		"/home/deepak/rails_project/sample_app/config/routes.rb",
+		"/home/deepak/rails_project/sample_app/Gemfile",
+		"/home/deepak/rails_project/sample_app/app/views/static_pages/help.html.erb",
+		"/home/deepak/rails_project/sample_app/app/views/user/new.html.erb",
+		"/home/deepak/rails_project/sample_app/spec/spec_helper.rb",
+		"/home/deepak/rails_project/sample_app/app/views/static_pages/home.html.erb",
+		"/home/deepak/rails_project/sample_app/app/views/layouts/application.html.erb",
+		"/home/deepak/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/deepak/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/deepak/rails_project/sample_app/app/controllers/user_controller.rb",
+		"/home/deepak/rails_project/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/deepak/rails_project/sample_app/spec/support/utilities.rb",
+		"/home/deepak/rails_project/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/deepak/rails_project/sample_app/app/views/layouts/_header.html.erb",
+		"/home/deepak/rails_project/sample_app/config/database.yml",
+		"/home/deepak/rails_project/sampe_app/app/views/layouts/application.html.erb",
+		"/home/deepak/rails_project/sampe_app/spec/requests/static_pages_spec.rb",
+		"/home/deepak/rails_project/sampe_app/spec/support/utilities.rb",
+		"/home/deepak/rails_project/sampe_app/config/routes.rb",
+		"/home/deepak/rails_project/sampe_app/public/index.html_bkp",
+		"/home/deepak/rails_project/sampe_app/app/views/layouts/_header.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/views/layouts/_footer.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/views/static_pages/contact.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/views/static_pages/home.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/assets/stylesheets/application.css",
+		"/home/deepak/rails_project/sampe_app/Gemfile",
+		"/home/deepak/rails_project/sampe_app/app/assets/stylesheets/custom.css.scss",
+		"/home/deepak/rails_project/sampe_app/app/views/layouts/_shim.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/helpers/static_pages_helper.rb",
+		"/home/deepak/rails_project/sampe_app/app/helpers/application_helper.rb",
+		"/home/deepak/rails_project/sampe_app/.git/COMMIT_EDITMSG",
+		"/home/deepak/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/deepak/rails_project/sampe_app/config/initializers/irb_reloading.rb",
+		"/home/deepak/rails_project/sampe_app/demo/User.rb",
+		"/home/deepak/rails_project/sampe_app/demo/Word.rb",
+		"/home/deepak/rails_project/sampe_app/demo/Palindrome_Test.rb",
+		"/home/deepak/rails_project/sampe_app/demo/sample.html",
+		"/home/deepak/.config/sublime-text-2/Packages/User/Ruby on Rails.sublime-settings",
+		"/home/deepak/.config/sublime-text-2/Packages/sublime_text_alternative_autocompletion/Tabs.sublime-keymap",
+		"/home/deepak/rails_project/sampe_app/demo/Users.rb",
+		"/home/deepak/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
+		"/home/deepak/.config/sublime-text-2/Packages/User/Ruby.sublime-settings",
+		"/home/deepak/rails_project/sampe_app/app/views/static_pages/help.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/views/static_pages/about.html.erb",
+		"/home/deepak/rails_project/sampe_app/app/controllers/static_pages_controller.rb",
+		"/home/deepak/rails_project/demo_app/.gitignore",
+		"/home/deepak/rails_project/sampe_app/.gitignore",
+		"/home/deepak/rails_project/first_app/.git/COMMIT_EDITMSG",
+		"/home/deepak/rails_project/demo_app/Gemfile",
+		"/home/deepak/rails_project/demo_app/public/index.html",
+		"/home/deepak/rails_project/demo_app/app/models/micropost.rb",
+		"/home/deepak/rails_project/demo_app/app/models/user.rb",
+		"/opt/pgmodeler-0.6.2-linux64/pgmodeler.sh",
+		"/opt/pg-modeler/pgmodeler-0.6.2-linux64/README.md",
+		"/home/deepak/rails_project/demo_app/public/assets/manifest.yml",
+		"/home/deepak/rails_project/demo_app/app/controllers/users_controller.rb",
+		"/home/deepak/rails_project/first_app/Gemfile",
+		"/home/deepak/rails_project/first_app/.gitignore",
+		"/home/deepak/rails_project/first_app/README.md",
+		"/home/deepak/Desktop/Sublime Text",
+		"/home/deepak/.gemrc",
+		"/home/deepak/rails_project/first_app/app/views/layouts/application.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tab",
+			"click",
+			"single",
+			"'/static_pages/contact'",
+			"'/static_pages/about'",
+			"'/static_pages/help'",
+			"'/static_pages/home'",
+			"select",
+			"space"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"contact_path",
+			"about_path",
+			"help_path",
+			"root_path"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/deepak/bxe/bxe_crm/app/models/address.rb",
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/deepak/bxe/bxe_crm/app/models/appointment.rb",
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/deepak/bxe/bxe_crm/app/models/attribute_definition.rb",
+					"settings":
+					{
+						"buffer_size": 2170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/deepak/bxe/bxe_crm/app/models/calendar.rb",
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/deepak/bxe/bxe_crm/app/models/calendar_event.rb",
+					"settings":
+					{
+						"buffer_size": 1803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/deepak/bxe/bxe_crm/app/models/comment.rb",
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"erb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"word",
+				"demo/Word.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}
