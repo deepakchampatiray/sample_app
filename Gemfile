@@ -13,6 +13,8 @@ end
 
 group :development do
 	gem 'annotate', '2.5.0'
+	gem "ZenTest", "4.4.2"
+	gem "autotest-rails", "4.1.0"
 end
 
 

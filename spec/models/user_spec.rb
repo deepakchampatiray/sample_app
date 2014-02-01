@@ -116,4 +116,5 @@ describe User do
       it { should_not == user_with_inalid_password }
     end
   end
+
 end

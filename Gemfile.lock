@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ZenTest (4.4.2)
     actionmailer (3.2.11)
       actionpack (= 3.2.11)
       mail (~> 2.4.4)
@@ -31,6 +32,9 @@ GEM
     annotate (2.5.0)
       rake
     arel (3.0.3)
+    autotest-rails (4.1.0)
+      ZenTest
+      hoe (>= 2.0.0)
     bcrypt-ruby (3.0.1)
     bootstrap-sass (2.3.1.0)
       sass (~> 3.2)
@@ -56,6 +60,8 @@ GEM
     execjs (2.0.2)
     ffi (1.9.3)
     hike (1.2.3)
+    hoe (3.8.1)
+      rake (>= 0.8, < 11.0)
     i18n (0.6.9)
     journey (1.0.4)
     jquery-rails (2.0.2)
@@ -145,7 +151,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ZenTest (= 4.4.2)
   annotate (= 2.5.0)
+  autotest-rails (= 4.1.0)
   bcrypt-ruby (= 3.0.1)
   bootstrap-sass (= 2.3.1)
   capybara (= 1.1.2)
