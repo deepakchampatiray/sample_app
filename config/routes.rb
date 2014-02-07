@@ -1,4 +1,6 @@
 SampeApp::Application.routes.draw do
+
+  resources :user
   
   match '/help', to: "static_pages#help"
 
