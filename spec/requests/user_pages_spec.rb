@@ -19,7 +19,7 @@ describe "User Pages" do
 		it "should allow valid user data to be submitted" do
 			fill_in "Name", 					with: "Deepak Champatiray";
 			fill_in "Email",					with: "d.champatiray@yahoo.com";
-			fill_in "Password",					with: "passowrd";
+			fill_in "Password",					with: "password";
 			fill_in "Confirmation", 			with: "password";
 			expect {click_button submit}.to change(User, :count).by(1);
 		end
